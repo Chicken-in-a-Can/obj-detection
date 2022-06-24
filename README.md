@@ -1,4 +1,4 @@
-# Onject Detection
+# Object Detection
 **TensorFlow** object detection for roboboat  
 Set up for squares and circles on notecards, because I don't have a pool to fit buoys in  
 Core count is limited because our main unit has limited resources  
