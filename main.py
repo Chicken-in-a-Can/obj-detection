@@ -30,7 +30,7 @@ while loop:
     # Check if camera took picture
     if result:
     
-        # Save image to RAM
+        # Save image to tmp
         cv2.imwrite("/tmp/theimage.png", image)  
     
         # IDK. Machine learning i guess
@@ -53,7 +53,7 @@ while loop:
             # Print center
             print(center, end="\r")
 
-        # Remove image from RAM
+        # Remove image from tmp
         os.remove("/tmp/theimage.png")
     else:
         print("Camera failed to take image")
